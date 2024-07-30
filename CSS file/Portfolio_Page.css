@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family:Adobe Garamond Pro Bold ;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+/* .................................................Navigation bar................................................. */
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+    padding-left: 5%;
+    align-content: center;
+    color: rgb(54, 8, 100);
+}
+.navigation-profile{
+    display: flex; 
+    align-items: center;  
+}
+.profile_Icon{
+    width: 40px;
+    padding: 20px;
+    cursor: pointer;
+}
+.navigation {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+}
+.navigation li,a{
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.navigation a:hover{
+    border-radius:30px;
+    color: black;
+    text-decoration: underline;
+}
+/* .................................................Header section................................................. */
+.header-bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    width: 100%;
+    height:100vh;
+    padding: 10%;
+    background-color: none;
+    margin-left: auto;
+}
+.sub-topic{
+    font-size: 20px;
+    color: tomato;
+
+}
+.header-topic{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 5px 0; 
+    color: rgb(54, 8, 100);
+}
+.header-discription {
+    width: 50%;
+    font-size: 15px;
+    color: gray;
+}
+.header-button-resume {
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer; 
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+}
+/* .................................................About me section................................................. */
+.about-me-bg{
+    width: 100vw;
+    height: auto;
+}
+.aboutme{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: gray;
+    padding: 10%;
+    border-top: 0;
+    padding-bottom: 0%;
+    border-bottom: 0;
+    bottom: 0;
+    gap: 0;
+}
+.about-me-left{
+    width: 50%;
+}
+.aboutme-topic{
+    border-top: 0;
+    width: 60%;
+    font-size: 50px;
+    color: rgb(54, 8, 100);
+    font-weight: bold;
+}
+.aboutme-discription{
+    width: 100%;
+    font-size: 20px;
+}
+.about-me-right{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 9px;
+}
+.about-me-button button{
+    padding: 10px;
+    border-radius: 0px;
+    cursor: pointer; 
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    gap: 5px;
+}
+/* .................................................Skills section................................................. */
+.skill{
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+.topic {
+    width: 60%;
+    font-size: 50px;
+    color: rgb(54, 8, 100);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.web{
+    display: flex;
+    width: 90%;
+    gap: 0;
+}
+.mobile{
+    display: flex;
+    width: 90%;
+    gap: 0;
+}
+.data{
+    display: flex;
+    width: 90%;
+    gap: 0;
+}
+.discription h1{
+    color: tomato;
+    font-weight: bold;
+}
+.discription p{
+    color:gray;
+    font-size: 20px;
+    width: 80%;
+}
+.discription-img{
+    padding: 0%;
+    border-left: 0;
+    display: inline-block;
+    align-items: start;
+}
+.discription-img img{
+    width: 350px;
+    padding-left: 0;
+}
+/* .................................................project section................................................. */
+.project{
+    width: 100%;
+    height: auto;
+    padding:10%;
+    margin-top: 0;
+    top: 0;
+    background-color: rgba(202, 200, 200, 0.599);
+}
+.project-topic{
+    font-size: 50px;
+    color: rgb(54, 8, 100);
+    font-weight: bold;
+    text-align: center;
+}
+.project-card {
+    display: flex;
+    gap: 20px; 
+    margin: 20px; 
+}
+.card01, .card02 {
+    width: 50%;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+.card01:hover, .card02:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card03, .card04 {
+    width: 50%;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+.card03:hover, .card04:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.project-name{
+    color:purple;
+}
+.project-discription{
+    color: gray;
+    font-size: 15px;
+}
+.project-discription button{
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer; 
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+}
+.show-all-button button{
+    padding: 10px;
+    cursor: pointer; 
+    color: tomato;
+    font-weight: bold;
+    margin-top: 10px;
+    border-color: tomato;
+}
+/* .................................................contact me section................................................. */
+.contact-me{
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    display: flex;
+}
+.contact-left{
+    width: 100%;
+}
+.contact-topic{
+    font-size: 50px;
+    color: rgb(54, 8, 100);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.information{
+    font-size: 25px;
+    color: balck;
+}
+.contact-img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    gap: 5px;
+}
+.contact-right img{
+    width: 350px;
+    padding-left: 0;
+}
+/* .................................................Talk section................................................. */
+.talk{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.talk-discription{
+    width: 70%;
+}
+.talk-discription p{
+    color: tomato;
+    font-size: 70px;
+}
+.talk-button button{
+    padding: 20px;
+    cursor: pointer; 
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+}
+.dveloper-tool-logo{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    gap: 5px;
+}
+/* .................................................Footer section................................................. */
+.footer-main{
+    background-color: gray;
+    opacity: 0.8;
+    padding: 5%;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    color: white;
+}
+.footer-middle{
+    width: 100%;
+}
+.footer-middle > p {
+    font-size: 16px;
+} 
+.footer-middle ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+.footer-middle li {
+    display: flex; 
+    cursor: pointer;
+}
+.footer-middle-right{
+    width: 100%;
+
+}
+.footer-middle-right > p {
+    font-size: 16px;
+} 
+.footer-middle-right ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+.footer-middle-right li {
+    display: flex; 
+    align-items: center;
+    padding: 10px 0; 
+}
+.footer-middle-right li img {
+    margin-right: 10px; 
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1); 
+    cursor: pointer;
+} 
+.footer-middle-right li p {
+    margin: 0; 
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-right{
+    width: 100%;
+}
+.footer-right > p {
+    font-size: 16px;
+} 
+.footer-right ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+.footer-right li {
+    display: flex; 
+    align-items: center;
+    padding: 10px 0; 
+}
+.footer-right li img {
+    margin-right: 10px; 
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    cursor: pointer; 
+} 
+.footer-right li p {
+    margin: 0; 
+    font-size: 14px;
+    cursor: pointer;
+}
+hr{
+    padding-right: 40%;
+}
+.footer-bottom{
+    display: flex;
+    width: 100%;
+}
+.coppy-right{
+   width: 50%; 
+   padding-right: 10%;
+}
+/* .................................................Responsive Design ................................................ */
+@media (max-width: 768px) {
+    .navbar, .aboutme, .project-card, .talk, .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-description, .aboutme-description {
+        width: 100%;
+    }
+
+    .header {
+        padding: 5%;
+    }
+
+    .about-me-left, .about-me-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .project-card > div {
+        width: 100%;
+    }
+
+    .talk-description p {
+        font-size: 40px;
+    }
+
+    .footer-middle, .footer-middle-right, .footer-right {
+        width: 100%;
+    }
+
+    .coppy-right {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-topic, .aboutme-topic, .topic, .contact-topic {
+        font-size: 30px;
+    }
+
+    .talk-description p {
+        font-size: 30px;
+    }
+
+    .profile_Icon, .description-img img, .contact-right img {
+        width: 100px;
+    }
+}
